@@ -1,0 +1,9 @@
+# Packages
+node_modules/
+yarn.lock
+package-lock.json
+
+# Misc
+.tmp/
+.vscode/
+dist/

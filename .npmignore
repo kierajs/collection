@@ -1,0 +1,19 @@
+# Packages
+node_modules/
+yarn.lock
+
+# Misc
+.tmp/
+.vscode/
+
+# NPM ignore
+!dist/
+src/
+.eslintrc.json
+.gitattributes
+.gitignore
+.travis.yml
+.github/
+test/
+tsconfig.json
+tslint.json
