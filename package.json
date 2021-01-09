@@ -1,15 +1,13 @@
 {
   "name": "@kierajs/collection",
-  "version": "0.1.0",
-  "description": "Utility data structure use by Discord.js and now by Kiera.js",
+  "version": "0.1.7",
+  "description": "Utility data structure used by Discord.js and now by Kiera.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "lint": "eslint src --ext .ts",
     "prebuild": "npm run lint",
-    "build": "rimraf dist/ && tsc",
-    "pretest": "npm run build",
-    "test": "node text/index.js"
+    "build": "rimraf dist/ && tsc"
   },
   "repository": {
     "type": "git",
